@@ -31,35 +31,35 @@ public class Conditionals {
         Scanner s = new Scanner(System.in);
 
 
-//        System.out.println("Enter 3 integers");
-//        int a = s.nextInt();
-//        int b = s.nextInt();
-//        int c = s.nextInt();
-//
-//        int max = 0;
-//        if (a > b && a > c) {
-//            max = a;
-//        }
-//        //the condition for checking b needs to be an else if
-//        //else if clauses are used when you have multiple branches
-//        //to check and you only want one of them to run
-//        //-only the first branch that evaluates to true will
-//        //run, and any other conditions afterward won't be
-//        //checked
-//        else if (b > a && b > c) {
-//            max = b;
-//        }
-//        else {
-//            max = c;
-//        }
-//        //if the condition for b was left as an if and not an
-//        //else if, the program wouldn't run correctly becuase
-//        //the first if-statement checking a will always
-//        //run independently of the other two if/else branches
-//
-//        System.out.println("The biggest number is " + max);
-//
-//        s.nextLine();
+        System.out.println("Enter 3 integers");
+        int a = s.nextInt();
+        int b = s.nextInt();
+        int c = s.nextInt();
+
+        int max = 0;
+        if (a > b && a > c) {
+            max = a;
+        }
+        //the condition for checking b needs to be an else if
+        //else if clauses are used when you have multiple branches
+        //to check and you only want one of them to run
+        //-only the first branch that evaluates to true will
+        //run, and any other conditions afterward won't be
+        //checked
+        else if (b > a && b > c) {
+            max = b;
+        }
+        else {
+            max = c;
+        }
+        //if the condition for b was left as an if and not an
+        //else if, the program wouldn't run correctly becuase
+        //the first if-statement checking a will always
+        //run independently of the other two if/else branches
+
+        System.out.println("The biggest number is " + max);
+
+        s.nextLine();
         //since the previous input was numerical and we need
         //string input below this, add an extra nextLine() so
         //input doesn't get skipped
