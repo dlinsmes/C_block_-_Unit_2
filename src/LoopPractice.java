@@ -11,23 +11,23 @@ public class LoopPractice {
 
         //the program will only work if the input numbers are between
         //min and max
-//        int min = Integer.MAX_VALUE;
-//        int max = Integer.MIN_VALUE;
-//
-//        for (int i = 0; i < 5; i++) {
-//            System.out.println("enter a number");
-//            int num = s.nextInt();
-//
-//            //only need to keep track of two numbers - the min and the max
-//            //when the current number is less than/greater than the current
-//            //min/max, then update min/max to that new number
-//            if (num > max)
-//                max = num;
-//            if (num < min)
-//                min = num;
-//        }
-//
-//        System.out.println("min is " + min + ", max is " + max);
+        int min = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE;
+
+        for (int i = 0; i < 5; i++) {
+            System.out.println("enter a number");
+            int num = s.nextInt();
+
+            //only need to keep track of two numbers - the min and the max
+            //when the current number is less than/greater than the current
+            //min/max, then update min/max to that new number
+            if (num > max)
+                max = num;
+            if (num < min)
+                min = num;
+        }
+
+        System.out.println("min is " + min + ", max is " + max);
 
         System.out.println("MIN_VALUE is " + Integer.MIN_VALUE);
         System.out.println("MAX_VALUE is " + Integer.MAX_VALUE);
